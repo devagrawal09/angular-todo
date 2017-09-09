@@ -1,28 +1,25 @@
-# TodoApp
+#Angular Todo App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.1.
+This repository contains the app I created to practice my hand at Angular 2+.
 
-## Development server
+#About the app
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This is a simple CRUD app based on [todomvc](http://todomvc.com) using Angular 2 and is built using Angular CLI.
 
-## Code scaffolding
+#Running locally
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+Make sure you have the latest version of Angular CLI installed. If not, install it using `npm install -g @angular/cli`.
 
-## Build
+Clone the repository and run `npm install` in the root directory.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+The app uses [json-server](https://github.com/typicode/json-server) for a mock REST backend. To run the mock backend, run `npm run json-server` in the root application directory.
 
-## Running unit tests
+In a seperate terminal window, run `ng serve` in the root application directory, which starts the local development server at `localhost:4200`.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#Contribution
 
-## Running end-to-end tests
+Any contributions in the form of stars, issues or pull requests are welcome.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+#License
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This project is open sourced under the MIT license.
