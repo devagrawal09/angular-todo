@@ -1,12 +1,12 @@
-##Angular Todo App
+# Angular Todo App
 
 This repository contains the app I created to practice my hand at Angular 2+.
 
-##About the app
+## About the app
 
 This is a simple CRUD app based on [todomvc](http://todomvc.com) using Angular 2 and is built using Angular CLI.
 
-##Running locally
+## Running locally
 
 Make sure you have the latest version of Angular CLI installed. If not, install it using `npm install -g @angular/cli`.
 
@@ -16,10 +16,10 @@ The app uses [json-server](https://github.com/typicode/json-server) for a mock R
 
 In a seperate terminal window, run `ng serve` in the root application directory, which starts the local development server at `localhost:4200`.
 
-##Contribution
+## Contribution
 
 Any contributions in the form of stars, issues or pull requests are welcome.
 
-##License
+## License
 
 This project is open sourced under the MIT license.
