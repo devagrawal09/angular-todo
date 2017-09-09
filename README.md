@@ -12,7 +12,7 @@ Make sure you have the latest version of Angular CLI installed. If not, install 
 
 Clone the repository and run `npm install` in the root directory.
 
-The app uses [json-server](https://github.com/typicode/json-server) for a mock REST backend. To run the mock backend, run `npm run json-server` in the root application directory.
+The app uses [json-server](https://github.com/typicode/json-server) for a mock REST backend and uses `db.json` as the database. To run the mock backend, run `npm run json-server` in the root application directory. To manually edit the database, simply edit the `db.json` file.
 
 In a seperate terminal window, run `ng serve` in the root application directory, which starts the local development server at `localhost:4200`.
 
